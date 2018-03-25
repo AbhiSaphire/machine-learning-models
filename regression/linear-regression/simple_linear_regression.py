@@ -9,7 +9,7 @@ y = dataset.iloc[:, 1].values
 
 # Splitting the dataset into training set and test set
 from sklearn.cross_validation import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/3, random_state = 0)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/3)
 
 """
 # Scaling data
