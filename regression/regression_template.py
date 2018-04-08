@@ -1,4 +1,4 @@
-# Polynomial regression
+# Regression
 
 # Importing the libraries
 import pandas as pd
@@ -25,7 +25,7 @@ X_test = sc_X.transform(X_test)"""
 # Predicting a new result
 y_predict = regressor.predict(6.5)
 
-# Visualising the Polynomial Regression results
+# Visualising the Regression results
 X_grid = np.arange(min(X), max(X), 0.1)
 X_grid = X_grid.reshape((len(X_grid), 1))
 plt.scatter(X, y, color='red')
